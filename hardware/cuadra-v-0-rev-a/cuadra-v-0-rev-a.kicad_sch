@@ -1958,121 +1958,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:-12V"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "-12V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"-12V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "-12V_0_0"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "-12V_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -2335,6 +2220,12 @@
 		(uuid "409ce554-f779-4c39-a85b-ec0ed59fa3aa")
 	)
 	(junction
+		(at 53.34 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55cd2827-834c-4538-b8b4-2465b6ece749")
+	)
+	(junction
 		(at 68.58 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2375,12 +2266,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5a68cfb-4eb5-4db9-b976-ff804856d4fa")
-	)
-	(junction
-		(at 184.15 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dff0a07a-fc56-4782-8ab7-1260b76505bc")
 	)
 	(no_connect
 		(at 170.18 83.82)
@@ -2467,6 +2352,16 @@
 			(type default)
 		)
 		(uuid "16ac9ec9-d2a9-4811-922e-56f4bc983d00")
+	)
+	(wire
+		(pts
+			(xy 60.96 132.08) (xy 53.34 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17aafe36-9a2a-4986-b13f-1ae378174f10")
 	)
 	(wire
 		(pts
@@ -2677,26 +2572,6 @@
 			(type default)
 		)
 		(uuid "5aa88fe1-882a-43a9-852b-8cbe6020ab52")
-	)
-	(wire
-		(pts
-			(xy 199.39 45.72) (xy 205.74 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b60f98d-44d3-455b-bad9-e616ad7d1da3")
-	)
-	(wire
-		(pts
-			(xy 127 52.07) (xy 127 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c016740-a5ec-40d7-a98c-3d4dbf6c6668")
 	)
 	(wire
 		(pts
@@ -3200,16 +3075,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 45.72) (xy 191.77 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d90f909c-9e75-4f2b-9d25-04a79d07b6fa")
-	)
-	(wire
-		(pts
 			(xy 17.78 105.41) (xy 30.48 105.41)
 		)
 		(stroke
@@ -3270,13 +3135,23 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 130.81) (xy 53.34 153.67)
+			(xy 53.34 130.81) (xy 53.34 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e7390f18-0f90-4391-9080-d68ea243bdf1")
+	)
+	(wire
+		(pts
+			(xy 53.34 132.08) (xy 53.34 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e841c3c0-00b1-4d94-b0fd-c065688eb95f")
 	)
 	(wire
 		(pts
@@ -3287,6 +3162,26 @@
 			(type default)
 		)
 		(uuid "ea27729d-91d7-46c9-90c7-ab59fb91ac49")
+	)
+	(wire
+		(pts
+			(xy 60.96 142.24) (xy 60.96 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec3337b0-b01b-4286-ba4d-9090805dbfda")
+	)
+	(wire
+		(pts
+			(xy 60.96 134.62) (xy 60.96 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed4dc79c-3bd0-4385-96b0-5dbd8c28599a")
 	)
 	(wire
 		(pts
@@ -3370,16 +3265,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 52.07) (xy 127 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9702cf9-3c06-4ae9-a529-a384369d67c2")
-	)
-	(wire
-		(pts
 			(xy 161.29 40.64) (xy 153.67 40.64)
 		)
 		(stroke
@@ -3421,7 +3306,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00f29a3d-1c09-4fca-ab1d-1034adcf7117")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR018"
 			(at 161.29 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -3479,9 +3364,91 @@
 			(uuid "98356491-cdd2-4439-b6a6-1ebb8cfa1655")
 		)
 		(instances
-			(project "chufe-v-0-rev-a"
+			(project "cuadra-v-0-rev-a"
 				(path "/67fcc243-f597-4e0b-b733-c5ab822fea9b"
-					(reference "#PWR019")
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 60.96 138.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05db904d-34d6-4385-9e16-41c9484104e6")
+		(property "Reference" "C9"
+			(at 64.77 137.1599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 64.77 139.6999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 61.9252 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 60.96 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cad2df88-cbbb-4df7-a71e-eee79a356405")
+		)
+		(pin "2"
+			(uuid "c1032328-2059-405f-a024-de1a48e7cb50")
+		)
+		(instances
+			(project "cuadra-v-0-rev-a"
+				(path "/67fcc243-f597-4e0b-b733-c5ab822fea9b"
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -3500,7 +3467,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "072b6ae4-991e-43a6-952e-212aeffe436f")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR017"
 			(at 161.29 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -3558,9 +3525,9 @@
 			(uuid "c2ee683c-a684-4078-b46f-b6df0b22e86f")
 		)
 		(instances
-			(project "chufe-v-0-rev-a"
+			(project "cuadra-v-0-rev-a"
 				(path "/67fcc243-f597-4e0b-b733-c5ab822fea9b"
-					(reference "#PWR018")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -3638,7 +3605,7 @@
 			(uuid "d8fdc3d7-7dd2-465a-a5cc-58a2e4c08d07")
 		)
 		(instances
-			(project "chufe-v-0-rev-a"
+			(project "cuadra-v-0-rev-a"
 				(path "/67fcc243-f597-4e0b-b733-c5ab822fea9b"
 					(reference "D1")
 					(unit 1)
@@ -3718,7 +3685,7 @@
 			(uuid "0238393c-3939-479b-8a13-1d914d6f8d4c")
 		)
 		(instances
-			(project "chufe-v-0-rev-a"
+			(project "cuadra-v-0-rev-a"
 				(path "/67fcc243-f597-4e0b-b733-c5ab822fea9b"
 					(reference "R4")
 					(unit 1)
@@ -3796,7 +3763,7 @@
 			(uuid "81475ce9-106d-42a3-ad5c-c6e49c65fb46")
 		)
 		(instances
-			(project "chufe-v-0-rev-a"
+			(project "cuadra-v-0-rev-a"
 				(path "/67fcc243-f597-4e0b-b733-c5ab822fea9b"
 					(reference "#FLG02")
 					(unit 1)
@@ -3874,7 +3841,7 @@
 			(uuid "ebf18733-6fe6-4836-8f30-4f82e399440e")
 		)
 		(instances
-			(project "chufe-v-0-rev-a"
+			(project "cuadra-v-0-rev-a"
 				(path "/67fcc243-f597-4e0b-b733-c5ab822fea9b"
 					(reference "#PWR06")
 					(unit 1)
@@ -3952,7 +3919,7 @@
 			(uuid "24e3dd32-0910-458b-9f13-b0d8dd24a701")
 		)
 		(instances
-			(project "chufe-v-0-rev-a"
+			(project "cuadra-v-0-rev-a"
 				(path "/67fcc243-f597-4e0b-b733-c5ab822fea9b"
 					(reference "#PWR09")
 					(unit 1)
@@ -4034,7 +4001,7 @@
 			(uuid "99de2c10-20b8-4171-8fcc-84c5ba51d015")
 		)
 		(instances
-			(project "chufe-v-0-rev-a"
+			(project "cuadra-v-0-rev-a"
 				(path "/67fcc243-f597-4e0b-b733-c5ab822fea9b"
 					(reference "C1")
 					(unit 1)
@@ -4054,7 +4021,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "229f1438-ce05-46f1-945d-e63089878157")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR021"
 			(at 234.95 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -4112,87 +4079,9 @@
 			(uuid "f329dbe1-c940-4c39-ac24-9056db4d453b")
 		)
 		(instances
-			(project "chufe-v-0-rev-a"
+			(project "cuadra-v-0-rev-a"
 				(path "/67fcc243-f597-4e0b-b733-c5ab822fea9b"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 127 50.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "24dbf506-1231-41e6-9f6f-d4d9bfa4079f")
-		(property "Reference" "#FLG03"
-			(at 127 48.895 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 127 45.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 127 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fdd68df5-022e-4dac-bd39-716c619580e2")
-		)
-		(instances
-			(project "chufe-v-0-rev-a"
-				(path "/67fcc243-f597-4e0b-b733-c5ab822fea9b"
-					(reference "#FLG03")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -4210,7 +4099,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28331a95-2fbb-4924-b42a-83ecc3c7c406")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR014"
 			(at 144.78 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -4268,9 +4157,9 @@
 			(uuid "d096b2d0-6a29-41df-928b-1699100c601f")
 		)
 		(instances
-			(project "chufe-v-0-rev-a"
+			(project "cuadra-v-0-rev-a"
 				(path "/67fcc243-f597-4e0b-b733-c5ab822fea9b"
-					(reference "#PWR015")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -4350,9 +4239,89 @@
 			(uuid "b1d33c35-adac-4cb9-87bf-da2d5b64a906")
 		)
 		(instances
-			(project "chufe-v-0-rev-a"
+			(project "cuadra-v-0-rev-a"
 				(path "/67fcc243-f597-4e0b-b733-c5ab822fea9b"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 144.78 86.36 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36bf942e-00c8-4a05-9c15-2f66e3bda2f6")
+		(property "Reference" "C6"
+			(at 144.78 78.74 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 144.78 81.28 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 85.3948 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 144.78 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1c28c118-379e-474c-93d4-de179d9fb7ab")
+		)
+		(pin "2"
+			(uuid "d9be8b40-b0a6-4786-906f-91c001373bd7")
+		)
+		(instances
+			(project "cuadra-v-0-rev-a"
+				(path "/67fcc243-f597-4e0b-b733-c5ab822fea9b"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -4428,7 +4397,7 @@
 			(uuid "e23e4141-aea8-43b7-b93d-30eb7011a3bf")
 		)
 		(instances
-			(project "chufe-v-0-rev-a"
+			(project "cuadra-v-0-rev-a"
 				(path "/67fcc243-f597-4e0b-b733-c5ab822fea9b"
 					(reference "#PWR01")
 					(unit 1)
@@ -4508,7 +4477,7 @@
 			(uuid "563bc1d4-9281-47ec-9330-3fce14ddce56")
 		)
 		(instances
-			(project "chufe-v-0-rev-a"
+			(project "cuadra-v-0-rev-a"
 				(path "/67fcc243-f597-4e0b-b733-c5ab822fea9b"
 					(reference "R1")
 					(unit 1)
@@ -4626,9 +4595,87 @@
 			(uuid "57ef410a-e774-4bb8-bb94-3fd93c693384")
 		)
 		(instances
-			(project "chufe-v-0-rev-a"
+			(project "cuadra-v-0-rev-a"
 				(path "/67fcc243-f597-4e0b-b733-c5ab822fea9b"
 					(reference "RV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5446f3c9-8a2b-4d22-a27b-d9901a859798")
+		(property "Reference" "#PWR023"
+			(at 60.96 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c774c9ad-44fe-45f8-9ef6-474261e7537c")
+		)
+		(instances
+			(project "cuadra-v-0-rev-a"
+				(path "/67fcc243-f597-4e0b-b733-c5ab822fea9b"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -4646,7 +4693,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "544d24e3-7a2d-4af4-beaa-1a6bd5d905dd")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR022"
 			(at 234.95 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -4704,9 +4751,9 @@
 			(uuid "7d62c4ae-6675-4b93-9cf5-abc209a1f3fe")
 		)
 		(instances
-			(project "chufe-v-0-rev-a"
+			(project "cuadra-v-0-rev-a"
 				(path "/67fcc243-f597-4e0b-b733-c5ab822fea9b"
-					(reference "#PWR024")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -4786,7 +4833,7 @@
 			(uuid "818f181f-43de-44e6-aa9f-c5c0116f23fa")
 		)
 		(instances
-			(project "chufe-v-0-rev-a"
+			(project "cuadra-v-0-rev-a"
 				(path "/67fcc243-f597-4e0b-b733-c5ab822fea9b"
 					(reference "C5")
 					(unit 1)
@@ -4864,7 +4911,7 @@
 			(uuid "7064af6c-ff7e-4d06-bef0-69e446e8c5d8")
 		)
 		(instances
-			(project "chufe-v-0-rev-a"
+			(project "cuadra-v-0-rev-a"
 				(path "/67fcc243-f597-4e0b-b733-c5ab822fea9b"
 					(reference "#PWR011")
 					(unit 1)
@@ -4942,7 +4989,7 @@
 			(uuid "f342278a-95ba-4be0-b426-4c6a45f6a3d6")
 		)
 		(instances
-			(project "chufe-v-0-rev-a"
+			(project "cuadra-v-0-rev-a"
 				(path "/67fcc243-f597-4e0b-b733-c5ab822fea9b"
 					(reference "#PWR012")
 					(unit 1)
@@ -5022,7 +5069,7 @@
 			(uuid "f78a3ce8-8eb5-4b1b-becd-36972ba373ff")
 		)
 		(instances
-			(project "chufe-v-0-rev-a"
+			(project "cuadra-v-0-rev-a"
 				(path "/67fcc243-f597-4e0b-b733-c5ab822fea9b"
 					(reference "R3")
 					(unit 1)
@@ -5100,89 +5147,9 @@
 			(uuid "1a4d77ab-9139-46c9-a8fc-4552ecb36ddc")
 		)
 		(instances
-			(project "chufe-v-0-rev-a"
+			(project "cuadra-v-0-rev-a"
 				(path "/67fcc243-f597-4e0b-b733-c5ab822fea9b"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 195.58 45.72 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7256322e-947e-4309-ac72-017261bfe3d4")
-		(property "Reference" "D2"
-			(at 195.2625 52.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D_Schottky"
-			(at 195.2625 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.58 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 195.58 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6f17f9ef-5301-43e5-8f97-1b02a0301a73")
-		)
-		(pin "1"
-			(uuid "c0297565-bbf4-4182-abcc-cdda4f949dc2")
-		)
-		(instances
-			(project "chufe-v-0-rev-a"
-				(path "/67fcc243-f597-4e0b-b733-c5ab822fea9b"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -5258,7 +5225,7 @@
 			(uuid "80b6625d-375c-4c20-9c92-850d93f5c875")
 		)
 		(instances
-			(project "chufe-v-0-rev-a"
+			(project "cuadra-v-0-rev-a"
 				(path "/67fcc243-f597-4e0b-b733-c5ab822fea9b"
 					(reference "#PWR03")
 					(unit 1)
@@ -5342,7 +5309,7 @@
 			(uuid "5e22cc57-03fa-4502-8057-b6d6b382c3ae")
 		)
 		(instances
-			(project "chufe-v-0-rev-a"
+			(project "cuadra-v-0-rev-a"
 				(path "/67fcc243-f597-4e0b-b733-c5ab822fea9b"
 					(reference "J3")
 					(unit 1)
@@ -5424,7 +5391,7 @@
 			(uuid "cf0b581b-6f22-48ab-895c-3425cfc6eca7")
 		)
 		(instances
-			(project "chufe-v-0-rev-a"
+			(project "cuadra-v-0-rev-a"
 				(path "/67fcc243-f597-4e0b-b733-c5ab822fea9b"
 					(reference "R6")
 					(unit 1)
@@ -5502,7 +5469,7 @@
 			(uuid "563687ef-965f-4474-b559-5812a493f2f1")
 		)
 		(instances
-			(project "chufe-v-0-rev-a"
+			(project "cuadra-v-0-rev-a"
 				(path "/67fcc243-f597-4e0b-b733-c5ab822fea9b"
 					(reference "#FLG01")
 					(unit 1)
@@ -5580,89 +5547,9 @@
 			(uuid "92b8d736-7d55-4031-bf0b-88129b508bee")
 		)
 		(instances
-			(project "chufe-v-0-rev-a"
+			(project "cuadra-v-0-rev-a"
 				(path "/67fcc243-f597-4e0b-b733-c5ab822fea9b"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 144.78 86.36 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "98443480-539d-478c-bacd-e708ae7835c3")
-		(property "Reference" "C6"
-			(at 143.891 78.74 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1u"
-			(at 143.891 81.28 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 85.3948 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 144.78 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7438064c-df98-4cb1-a05d-a7cd8085809b")
-		)
-		(pin "2"
-			(uuid "47ec53b0-de70-4f2f-a549-dbee39c5fe73")
-		)
-		(instances
-			(project "chufe-v-0-rev-a"
-				(path "/67fcc243-f597-4e0b-b733-c5ab822fea9b"
-					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -5738,7 +5625,7 @@
 			(uuid "69312806-4e0d-4a11-8a6e-71dd36f1922f")
 		)
 		(instances
-			(project "chufe-v-0-rev-a"
+			(project "cuadra-v-0-rev-a"
 				(path "/67fcc243-f597-4e0b-b733-c5ab822fea9b"
 					(reference "#PWR013")
 					(unit 1)
@@ -5759,7 +5646,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a35887d4-2d43-4d86-979a-65ea52629dc6")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR015"
 			(at 151.13 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -5817,87 +5704,9 @@
 			(uuid "847bcbcf-1458-49d4-93e4-5a59fba3c53d")
 		)
 		(instances
-			(project "chufe-v-0-rev-a"
+			(project "cuadra-v-0-rev-a"
 				(path "/67fcc243-f597-4e0b-b733-c5ab822fea9b"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-12V")
-		(at 116.84 52.07 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a6ee2939-d66d-4dc2-8b69-4eaa53e8e77f")
-		(property "Reference" "#PWR014"
-			(at 116.84 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "-12V"
-			(at 116.84 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-12V\""
-			(at 116.84 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "69d18e89-5b71-4195-a9b7-2f6d294dfcd8")
-		)
-		(instances
-			(project "chufe-v-0-rev-a"
-				(path "/67fcc243-f597-4e0b-b733-c5ab822fea9b"
-					(reference "#PWR014")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -5916,7 +5725,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aac935b8-87c1-4128-82ec-a82e9c9bfb8c")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR016"
 			(at 151.13 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -5974,9 +5783,9 @@
 			(uuid "030f18b7-a68d-4f7c-b663-4be0e4ca97cc")
 		)
 		(instances
-			(project "chufe-v-0-rev-a"
+			(project "cuadra-v-0-rev-a"
 				(path "/67fcc243-f597-4e0b-b733-c5ab822fea9b"
-					(reference "#PWR017")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -6078,7 +5887,7 @@
 			(uuid "52b3de56-909c-486e-aaeb-b95bded18497")
 		)
 		(instances
-			(project "chufe-v-0-rev-a"
+			(project "cuadra-v-0-rev-a"
 				(path "/67fcc243-f597-4e0b-b733-c5ab822fea9b"
 					(reference "J1")
 					(unit 1)
@@ -6098,7 +5907,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b334ad45-ff7e-49aa-b3d8-aefec255f6af")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR019"
 			(at 195.58 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -6156,9 +5965,9 @@
 			(uuid "efcd9db7-2eb9-4964-85af-1c0ba930d5a9")
 		)
 		(instances
-			(project "chufe-v-0-rev-a"
+			(project "cuadra-v-0-rev-a"
 				(path "/67fcc243-f597-4e0b-b733-c5ab822fea9b"
-					(reference "#PWR020")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -6176,7 +5985,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3ca9d63-c1b8-49dd-a7f6-88d1a38b6184")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR020"
 			(at 204.47 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -6234,9 +6043,9 @@
 			(uuid "46bb0551-3e7a-48d0-95df-af8bfb77fd36")
 		)
 		(instances
-			(project "chufe-v-0-rev-a"
+			(project "cuadra-v-0-rev-a"
 				(path "/67fcc243-f597-4e0b-b733-c5ab822fea9b"
-					(reference "#PWR021")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -6312,7 +6121,7 @@
 			(uuid "b1cf80a1-5669-4232-a8c6-69460e58869d")
 		)
 		(instances
-			(project "chufe-v-0-rev-a"
+			(project "cuadra-v-0-rev-a"
 				(path "/67fcc243-f597-4e0b-b733-c5ab822fea9b"
 					(reference "#PWR07")
 					(unit 1)
@@ -6394,7 +6203,7 @@
 			(uuid "9b70c362-036a-4172-9b9e-f2aaf2cfcbad")
 		)
 		(instances
-			(project "chufe-v-0-rev-a"
+			(project "cuadra-v-0-rev-a"
 				(path "/67fcc243-f597-4e0b-b733-c5ab822fea9b"
 					(reference "C2")
 					(unit 1)
@@ -6510,7 +6319,7 @@
 			(uuid "86309798-2586-44ff-9b5f-2bc6258049d0")
 		)
 		(instances
-			(project "chufe-v-0-rev-a"
+			(project "cuadra-v-0-rev-a"
 				(path "/67fcc243-f597-4e0b-b733-c5ab822fea9b"
 					(reference "U1")
 					(unit 2)
@@ -6590,7 +6399,7 @@
 			(uuid "da521e33-757b-4aff-987b-b570fd6d5231")
 		)
 		(instances
-			(project "chufe-v-0-rev-a"
+			(project "cuadra-v-0-rev-a"
 				(path "/67fcc243-f597-4e0b-b733-c5ab822fea9b"
 					(reference "R2")
 					(unit 1)
@@ -6672,7 +6481,7 @@
 			(uuid "81a50974-d66c-4491-a25c-248b51f85362")
 		)
 		(instances
-			(project "chufe-v-0-rev-a"
+			(project "cuadra-v-0-rev-a"
 				(path "/67fcc243-f597-4e0b-b733-c5ab822fea9b"
 					(reference "C3")
 					(unit 1)
@@ -6754,9 +6563,89 @@
 			(uuid "eeb8601f-2c45-4f04-b231-012710920b45")
 		)
 		(instances
-			(project "chufe-v-0-rev-a"
+			(project "cuadra-v-0-rev-a"
 				(path "/67fcc243-f597-4e0b-b733-c5ab822fea9b"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 144.78 147.32 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8947ff6-dcc4-410a-8925-6d742f1a3e44")
+		(property "Reference" "C7"
+			(at 144.78 139.7 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 144.78 142.24 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 146.3548 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 144.78 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "02386b88-63f9-4a06-9081-b1240b4cfe94")
+		)
+		(pin "2"
+			(uuid "dfb9fec1-f21e-4977-a4c7-bd4147cadc3d")
+		)
+		(instances
+			(project "cuadra-v-0-rev-a"
+				(path "/67fcc243-f597-4e0b-b733-c5ab822fea9b"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -6872,7 +6761,7 @@
 			(uuid "224abb25-47d6-4763-98b6-81f6377e0a8b")
 		)
 		(instances
-			(project "chufe-v-0-rev-a"
+			(project "cuadra-v-0-rev-a"
 				(path "/67fcc243-f597-4e0b-b733-c5ab822fea9b"
 					(reference "RV2")
 					(unit 1)
@@ -6954,7 +6843,7 @@
 			(uuid "93345183-5241-4749-9d9a-3912d35a9eb2")
 		)
 		(instances
-			(project "chufe-v-0-rev-a"
+			(project "cuadra-v-0-rev-a"
 				(path "/67fcc243-f597-4e0b-b733-c5ab822fea9b"
 					(reference "R5")
 					(unit 1)
@@ -7038,7 +6927,7 @@
 			(uuid "ce978eed-797b-410a-a27f-d6951429aaf2")
 		)
 		(instances
-			(project "chufe-v-0-rev-a"
+			(project "cuadra-v-0-rev-a"
 				(path "/67fcc243-f597-4e0b-b733-c5ab822fea9b"
 					(reference "J2")
 					(unit 1)
@@ -7116,7 +7005,7 @@
 			(uuid "85478748-71ad-44b1-98d0-147560589812")
 		)
 		(instances
-			(project "chufe-v-0-rev-a"
+			(project "cuadra-v-0-rev-a"
 				(path "/67fcc243-f597-4e0b-b733-c5ab822fea9b"
 					(reference "#PWR08")
 					(unit 1)
@@ -7194,89 +7083,9 @@
 			(uuid "816e1adb-8ec8-4f20-b08f-6d8191050099")
 		)
 		(instances
-			(project "chufe-v-0-rev-a"
+			(project "cuadra-v-0-rev-a"
 				(path "/67fcc243-f597-4e0b-b733-c5ab822fea9b"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 144.78 147.32 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e8889707-7da6-45a1-b5bd-637e04e92aa4")
-		(property "Reference" "C7"
-			(at 143.891 139.7 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1u"
-			(at 143.891 142.24 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 146.3548 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 144.78 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6ec84da4-0732-4a96-ab4d-7fedc8e84730")
-		)
-		(pin "2"
-			(uuid "306c9a4f-8933-4a2c-a9c8-c2ae77864838")
-		)
-		(instances
-			(project "chufe-v-0-rev-a"
-				(path "/67fcc243-f597-4e0b-b733-c5ab822fea9b"
-					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -7348,49 +7157,49 @@
 			)
 		)
 		(pin "4"
-			(uuid "de0e41e8-df89-44f5-ac1d-6c956212d494")
+			(uuid "de0e41e8-df89-44f5-ac1d-6c956212d495")
 		)
 		(pin "3"
-			(uuid "6cfcaf54-50a8-4d29-a27a-e8a631ad60a6")
+			(uuid "6cfcaf54-50a8-4d29-a27a-e8a631ad60a7")
 		)
 		(pin "2"
-			(uuid "20b7dd25-74fc-4a80-8ef4-3d77a0b574fb")
+			(uuid "20b7dd25-74fc-4a80-8ef4-3d77a0b574fc")
 		)
 		(pin "12"
-			(uuid "15db5867-e236-45c7-8bd6-94988de384c0")
+			(uuid "15db5867-e236-45c7-8bd6-94988de384c1")
 		)
 		(pin "1"
-			(uuid "d1769c04-b29e-4096-90cb-c02fb8199861")
+			(uuid "d1769c04-b29e-4096-90cb-c02fb8199862")
 		)
 		(pin "14"
-			(uuid "302d1e97-f15f-4c40-a3d3-4c134e164696")
+			(uuid "302d1e97-f15f-4c40-a3d3-4c134e164697")
 		)
 		(pin "7"
-			(uuid "fdc953c5-5fe5-47c5-8ca9-8a0b5454552f")
+			(uuid "fdc953c5-5fe5-47c5-8ca9-8a0b54545530")
 		)
 		(pin "5"
-			(uuid "0da88322-01bb-425f-bca7-273a85b4b82b")
+			(uuid "0da88322-01bb-425f-bca7-273a85b4b82c")
 		)
 		(pin "6"
-			(uuid "12c78617-35c9-4496-9394-37c9268a6fe2")
+			(uuid "12c78617-35c9-4496-9394-37c9268a6fe3")
 		)
 		(pin "10"
-			(uuid "cc894411-1fcb-4ee3-b7f0-b5032a4ebb65")
+			(uuid "cc894411-1fcb-4ee3-b7f0-b5032a4ebb66")
 		)
 		(pin "9"
-			(uuid "039e5f5a-f682-42ed-b3c8-60b91283e910")
+			(uuid "039e5f5a-f682-42ed-b3c8-60b91283e911")
 		)
 		(pin "8"
-			(uuid "20a078cc-b434-4a3b-b89d-2cc79002eff2")
+			(uuid "20a078cc-b434-4a3b-b89d-2cc79002eff3")
 		)
 		(pin "13"
-			(uuid "7d33d4db-d1c4-438f-b46d-24a72396b4d6")
+			(uuid "7d33d4db-d1c4-438f-b46d-24a72396b4d7")
 		)
 		(pin "11"
-			(uuid "86309798-2586-44ff-9b5f-2bc6258049d0")
+			(uuid "86309798-2586-44ff-9b5f-2bc6258049d1")
 		)
 		(instances
-			(project "chufe-v-0-rev-a"
+			(project "cuadra-v-0-rev-a"
 				(path "/67fcc243-f597-4e0b-b733-c5ab822fea9b"
 					(reference "U1")
 					(unit 1)
@@ -7468,87 +7277,9 @@
 			(uuid "6c1c0933-3090-4c49-af9f-0d3d0c5ae4b0")
 		)
 		(instances
-			(project "chufe-v-0-rev-a"
+			(project "cuadra-v-0-rev-a"
 				(path "/67fcc243-f597-4e0b-b733-c5ab822fea9b"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-12V")
-		(at 205.74 45.72 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fbe6635e-3e25-4281-bab4-aba23f9a5ee0")
-		(property "Reference" "#PWR022"
-			(at 205.74 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "-12V"
-			(at 205.74 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 205.74 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-12V\""
-			(at 205.74 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3ed639d7-dfbf-4161-845d-afc5455b17ca")
-		)
-		(instances
-			(project "chufe-v-0-rev-a"
-				(path "/67fcc243-f597-4e0b-b733-c5ab822fea9b"
-					(reference "#PWR022")
 					(unit 1)
 				)
 			)

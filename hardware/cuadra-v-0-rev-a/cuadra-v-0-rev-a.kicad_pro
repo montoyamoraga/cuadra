@@ -256,7 +256,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "chufe-v-0-rev-a.kicad_pro",
+    "filename": "cuadra-v-0-rev-a.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -411,18 +411,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "chufe-v-0-rev-a.kicad_sch",
-        "name": "chufe-v-0-rev-a",
+        "filename": "cuadra-v-0-rev-a.kicad_sch",
+        "name": "cuadra-v-0-rev-a",
         "uuid": "67fcc243-f597-4e0b-b733-c5ab822fea9b"
       }
     ],
-    "used_designators": "RV1-2,R1-6,U1-2,#FLG1-5,C1-9,D1-4,#PWR1-25,J1-3",
+    "used_designators": "U1,RV1-2,R1-6,#PWR1-23,D1,C1-9,J1-3,#FLG1-2",
     "variants": []
   },
   "sheets": [
     [
       "67fcc243-f597-4e0b-b733-c5ab822fea9b",
-      "chufe-v-0-rev-a"
+      "cuadra-v-0-rev-a"
     ]
   ],
   "text_variables": {},
