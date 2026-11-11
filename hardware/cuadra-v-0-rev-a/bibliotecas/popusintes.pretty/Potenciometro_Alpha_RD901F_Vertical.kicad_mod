@@ -1,10 +1,10 @@
-(footprint "POT_TH_Alps_RK09K_Single_Vertical"
+(footprint "Potenciometro_Alpha_RD901F_Vertical"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "Potentiometer, vertical, Alps RK09K Single, http://www.alps.com/prod/info/E/HTML/Potentiometer/RotaryPotentiometers/RK09K/RK09K_list.html")
-	(tags "Potentiometer vertical Alps RK09K Single")
+	(descr "Potenciometro vertical Alpha RD901F 9 mm. Misma geometria que la huella BYOM POT_TH_Alps_RK09K_Single_Vertical, con los pads 1 y 3 intercambiados: visto de frente con las patas hacia abajo, pad 1 = pata izquierda (extremo antihorario), pad 3 = pata derecha (extremo horario)")
+	(tags "potenciometro vertical Alpha RD901F 9mm")
 	(property "Reference" "REF**"
 		(at 0 -6.8 0)
 		(layer "F.SilkS")
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "POT_TH_Alps_RK09K_Single_Vertical"
+	(property "Value" "Potenciometro_Alpha_RD901F_Vertical"
 		(at 7.65 1.45 90)
 		(layer "F.Fab")
 		(uuid "9d1a7ac8-ea59-4e2a-8d74-9a89b9ca89f6")
@@ -28,7 +28,7 @@
 			)
 		)
 	)
-	(property "Footprint" "POT_TH_Alps_RK09K_Single_Vertical"
+	(property "Footprint" "Potenciometro_Alpha_RD901F_Vertical"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -273,7 +273,7 @@
 		(remove_unused_layers no)
 		(uuid "7c35ce08-fde7-4e55-b0ba-f067825bc743")
 	)
-	(pad "1" thru_hole circle
+	(pad "3" thru_hole circle
 		(at 2.5 7.5 90)
 		(size 2 2)
 		(drill 1)
@@ -289,7 +289,7 @@
 		(remove_unused_layers no)
 		(uuid "2769821a-6139-4ec2-a15b-bc309f121bcf")
 	)
-	(pad "3" thru_hole circle
+	(pad "1" thru_hole circle
 		(at -2.5 7.5 90)
 		(size 2 2)
 		(drill 1)
@@ -297,7 +297,7 @@
 		(remove_unused_layers no)
 		(uuid "36af5f76-cb48-46fb-b347-ff47de51910d")
 	)
-	(model "bibliotecas/cuadra-v-0-rev-a.3dshapes/ALPHA-RD901F-40.step"
+	(model "bibliotecas/popusintes.3dshapes/ALPHA-RD901F-40.step"
 		(offset
 			(xyz 0 -0.25 0)
 		)
