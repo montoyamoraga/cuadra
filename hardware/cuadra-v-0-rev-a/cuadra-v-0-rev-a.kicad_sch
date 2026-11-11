@@ -3506,7 +3506,18 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "cuadra-v-0-rev-a:C0805"
+			(at 103.8352 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C49678"
 			(at 103.8352 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -3655,7 +3666,7 @@
 				)
 			)
 		)
-		(property "Value" "D_Schottky"
+		(property "Value" "1N5817"
 			(at 237.8075 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3665,7 +3676,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 			(at 237.49 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -3745,7 +3756,18 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "cuadra-v-0-rev-a:R0805"
+			(at 172.72 147.828 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2907232"
 			(at 172.72 147.828 90)
 			(hide yes)
 			(show_name no)
@@ -3903,7 +3925,18 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "cuadra-v-0-rev-a:R0805"
+			(at 50.8 65.278 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25611"
 			(at 50.8 65.278 90)
 			(hide yes)
 			(show_name no)
@@ -4141,7 +4174,18 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "cuadra-v-0-rev-a:C0805"
+			(at 73.3552 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C49678"
 			(at 73.3552 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -4301,7 +4345,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "cuadra-v-0-rev-a:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
 			(at 31.75 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -4464,7 +4508,18 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "cuadra-v-0-rev-a:CAP-SMD_BD4.0-L4.3-W4.3-FD"
+			(at 141.9352 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C72485"
 			(at 141.9352 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -4544,7 +4599,18 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "cuadra-v-0-rev-a:C0805"
+			(at 190.5 84.1248 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C77083"
 			(at 190.5 84.1248 0)
 			(hide yes)
 			(show_name no)
@@ -4702,7 +4768,18 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "cuadra-v-0-rev-a:R0805"
+			(at 50.8 132.588 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25611"
 			(at 50.8 132.588 90)
 			(hide yes)
 			(show_name no)
@@ -4782,7 +4859,18 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "cuadra-v-0-rev-a:R0805"
+			(at 116.84 100.838 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2907232"
 			(at 116.84 100.838 90)
 			(hide yes)
 			(show_name no)
@@ -4864,7 +4952,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "cuadra-v-0-rev-a:POT_TH_Alps_RK09K_Single_Vertical"
 			(at 140.97 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -5216,7 +5304,18 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "cuadra-v-0-rev-a:C0805"
+			(at 106.3752 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C49678"
 			(at 106.3752 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -5452,7 +5551,18 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "cuadra-v-0-rev-a:R0805"
+			(at 172.72 86.868 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2907232"
 			(at 172.72 86.868 90)
 			(hide yes)
 			(show_name no)
@@ -5689,7 +5799,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "cuadra-v-0-rev-a:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
 			(at 217.17 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -5774,7 +5884,18 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "cuadra-v-0-rev-a:R0805"
+			(at 194.818 153.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25611"
 			(at 194.818 153.67 90)
 			(hide yes)
 			(show_name no)
@@ -6246,7 +6367,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "cuadra-v-0-rev-a:IDC-Header_2x05_P2.54mm_Vertical"
 			(at 208.28 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -6586,7 +6707,18 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "cuadra-v-0-rev-a:C0805"
+			(at 73.3552 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C49678"
 			(at 73.3552 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -6666,7 +6798,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 92.71 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -6782,7 +6914,18 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "cuadra-v-0-rev-a:R0805"
+			(at 116.84 164.338 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2907232"
 			(at 116.84 164.338 90)
 			(hide yes)
 			(show_name no)
@@ -6864,7 +7007,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "cuadra-v-0-rev-a:C0805"
 			(at 83.5152 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -6946,7 +7089,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "cuadra-v-0-rev-a:C0805"
 			(at 83.5152 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -7026,7 +7169,18 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "cuadra-v-0-rev-a:C0805"
+			(at 190.5 145.0848 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C77083"
 			(at 190.5 145.0848 0)
 			(hide yes)
 			(show_name no)
@@ -7186,7 +7340,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "cuadra-v-0-rev-a:POT_TH_Alps_RK09K_Single_Vertical"
 			(at 140.97 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -7304,7 +7458,18 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "cuadra-v-0-rev-a:R0805"
+			(at 194.818 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25611"
 			(at 194.818 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -7385,7 +7550,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "cuadra-v-0-rev-a:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
 			(at 217.17 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -7626,7 +7791,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "cuadra-v-0-rev-a:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
 			(at 31.75 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -7709,7 +7874,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 92.71 99.06 0)
 			(hide yes)
 			(show_name no)
